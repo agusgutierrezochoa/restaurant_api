@@ -2,3 +2,8 @@ fastapi==0.104.0
 uvicorn==0.23.2
 ipdb==0.13.13
 pytest==7.4.3
+pydantic==2.5.2
+Rtree==1.1.0
+geopy==2.4.1
+timezonefinder==6.2.0
+pytz==2023.3.post1
