@@ -76,5 +76,4 @@ class RestaurantFinder:
 
         if close_hour < open_hour:
             return open_hour <= current_time or current_time <= close_hour
-        else:
-            return open_hour <= current_time <= close_hour
+        return open_hour <= current_time <= close_hour
